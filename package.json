@@ -1,0 +1,31 @@
+{
+  "name": "bc-twitter",
+  "version": "1.0.0",
+  "description": "SSA Boot Camp Twitter Clone Exercise",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvaughn42/bc-twitter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cvaughn42/bc-twitter/issues"
+  },
+  "homepage": "https://github.com/cvaughn42/bc-twitter#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "fs-extra": "^0.30.0",
+    "sqlite3": "^3.1.4",
+    "string": "^3.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  }
+}
